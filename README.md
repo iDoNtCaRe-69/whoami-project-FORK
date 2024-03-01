@@ -107,7 +107,7 @@ So let's see what we need before installation and how we can download it.
 1. Clone the repo
  
    ```sh
-   git clone https://github.com/omer-dogan/kali-whoami
+   git clone https://github.com/iDoNtCaRe-69/whoami-project-FORK.git
    ```
 2. Install makefile
  
@@ -117,7 +117,7 @@ So let's see what we need before installation and how we can download it.
 And that's it, now you're ready to fire up the tool!
 
 ### Usage
- After completing setup, run the application by typing "Kali Whoami" in the search menu or by typing "sudo kali-whoami --help" in a terminal 
+ After completing the setup, type "sudo kali-whoami --help" in a terminal.
 
 Parameter | Description
 -------|-------------------
@@ -136,8 +136,8 @@ Parameter | Description
 
 * Update progress: %80 completed 
 * Next release codename: 3388
-* Stage: Code is being integrated with python (the whole update will be released in 2023 june or july)
-* Changelog : The long awaited update is bigger than expected and it will be worth everyone's wait.
+* Stage: Code is being integrated with Python (the whole update will be released in 2023 June or July)
+* Changelog: The long-awaited update is bigger than expected and it will be worth everyone's wait.
 
 <!-- LICENSE -->
 ## License
