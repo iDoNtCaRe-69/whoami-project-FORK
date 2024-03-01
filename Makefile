@@ -8,25 +8,19 @@ install:
 	install -m 755 kali-whoami $(trigger_dir)
 	mkdir -p $(src_dir)/$(tool_name)/backups
 	cp -vr assets $(src_dir)/$(tool_name)
-	cp -vr  $(src_dir)/$(tool_name)/assets/kali-whoami.desktop /usr/share/kali-menu/applications/
-	mv -v  $(src_dir)/$(tool_name)/assets/kali-whoami.desktop /usr/share/applications/
 
 
 uninstall:
 
-	rm -Rf $(trigger_dir)/$(tool_name)
-	rm -Rf $(src_dir)/$(tool_name)
-	rm -Rf $(src_dir)/kali-menu/applications/kali-whoami.desktop
-	rm -Rf $(src_dir)/applications/kali-whoami.desktop
-	
+	rm -rf $(trigger_dir)/$(tool_name)
+	rm -rf $(src_dir)/$(tool_name)
+	rm -rf $(src_dir)/kali-menu
+
+
 reinstall:
 
-	rm -Rf $(trigger_dir)/$(tool_name)
-	rm -Rf $(src_dir)/$(tool_name)
-	rm -Rf $(src_dir)/kali-menu/applications/kali-whoami.desktop
-	rm -Rf $(src_dir)/applications/kali-whoami.desktop
+	rm -rf $(trigger_dir)/$(tool_name)
+	rm -rf $(src_dir)/$(tool_name)
 	install -m 755 kali-whoami $(trigger_dir)
 	mkdir -p $(src_dir)/$(tool_name)/backups
 	cp -vr assets $(src_dir)/$(tool_name)
-	cp -vr  $(src_dir)/$(tool_name)/assets/kali-whoami.desktop /usr/share/kali-menu/applications/
-	mv -vr  $(src_dir)/$(tool_name)/assets/kali-whoami.desktop /usr/share/applications/
