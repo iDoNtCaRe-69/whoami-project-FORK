@@ -32,7 +32,7 @@ dep_check() {
                 [ $(command -v ${@:i:1}) ] || { warn "${@:i:1}: could not be found." ; check_status="0" ; }
         done
         if [ "${check_status}" = "0" ] ; then
-                err "Please run this command: '${GREEN}sudo apt update && sudo apt install tar tor curl python3 python-scapy network-manager${RESET}'"
+                err "Please run this command: '${GREEN}sudo pacman -Syu tar tor curl python3 scapy network-manager${RESET}'"
         fi
 }
 
