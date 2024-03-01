@@ -122,7 +122,7 @@ So let's see what we need before installation and how we can download it.
 And that's it, now you're ready to fire up the tool!
 
 ### Usage
- After completing the setup, type "sudo kali-whoami --help" in a terminal.
+ After completing the setup, type "sudo kali-whoami --help" in a terminal. Press the number corresponding to the module's serial number to enable modules.
 
 Parameter | Description
 -------|-------------------
