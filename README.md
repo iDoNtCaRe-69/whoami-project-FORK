@@ -109,7 +109,12 @@ So let's see what we need before installation and how we can download it.
    ```sh
    git clone https://github.com/iDoNtCaRe-69/whoami-project-FORK.git
    ```
-2. Install makefile
+2. Cd into the main Folder
+ 
+   ```sh
+   cd whoami-project-FORK/
+   ```
+3. Install makefile
  
    ```sh
    sudo make install
