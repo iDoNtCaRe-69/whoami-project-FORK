@@ -99,7 +99,7 @@ So let's see what we need before installation and how we can download it.
 * You can download all dependencies with the following command or check if they are up to date.
 
   ```sh
-  sudo apt update && sudo apt install tar tor curl python3 python-scapy network-manager
+  sudo pacman -Syu tar tor curl python3 scapy network-manager
   ```
 
 ### Installation
